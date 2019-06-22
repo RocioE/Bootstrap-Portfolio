@@ -1,0 +1,153 @@
+body{
+    background-image: 
+    url("./pink_rice.png");
+    background:pink;
+    }
+  
+  .pink {
+      /* background-color: #ec92e0; */
+      font-family: 'Open Sans', sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink
+  }
+  
+  li {
+    floats: right;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav  {
+    margin-top: 40px;
+    margin-right: 10px;
+    border: 40;
+    padding: 20;
+    list-style-type: relative;
+    padding-top: 0
+  }
+  
+  
+  
+  li a {
+    display: inline;
+    color: rgb(233, 159, 211);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  body {
+      background-color: rgb(243, 184, 193);
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-right: 250px;
+      margin-left: 250px;
+    }
+    
+    h1 {
+      color: black;
+      border-style: solid;
+    }
+    
+    p {
+      font-family: open sans-serif;
+      font-size: 25px;
+      font-weight: 100;
+      text-align: left;
+      font-family: 'Open Sans', sans-serif;
+  
+      
+      
+    }
+    .Link{
+      text-align: left
+    }
+    h3.normal {
+      font-size: normal;
+  
+    }
+    div {
+      border: 1px solid rgb(236, 181, 201);
+      border-left: 100px;
+      border-bottom: 100px;
+      border-right: 150px;
+      border-left: 80px;
+    }
+  
+    div {
+        background-color: lightgrey;
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+      }
+
+      .contact{
+        color: #1d066e;
+      }
+
+      
+      .nav {
+        float: left;
+        margin-top: 100px;
+        margin-right: 10px;
+        border: 0;
+        padding: 0;
+        list-style-type: relative;
+        padding-top: 0
+      }
+
+      /* {
+        margin: 0;
+        padding: 0;
+      } */
+
+      body{
+         background: pink;
+        background-size: cover;
+        height: auto;
+        font-family: sans-serif;
+      }
+
+      .container{
+        width: 800px;
+        height: 600px;
+        background: #fff;
+        margin: 50px auto;
+        padding: 40px;
+        box-shadow: 0 0 20px pink 
+      }
+
+      .container p{
+        text-transform: upper case;
+        text-align: center;
+        font-size: 45px;
+        margin-bottom: 20px;
+        color: whitesmoke;
+        letter-spacing: 1px;
+      }
+
+      .input, .msg .area{
+        width: 100%;
+        padding: 20px;
+        box-sizing: 25px;
+        border: 2px solid whitesmoke;
+        font-size: 14px;
+        outline: none;
+        transition: all 0.5s ease;
+      }
+
+      element {
+        --main-bg-color: rgb(250, 193, 233);
+        background-color: var(--main-bg-color);
+      }
+      
