@@ -18,7 +18,7 @@ body{
   }
   
   li {
-    float: right;
+    float: left;
   }
   
   nav {
@@ -79,7 +79,7 @@ body{
     /* ###Footer###*/
     html{
       postition: relative;
-      min-height: 100;
+      min-height: 400;
     }
 
 
@@ -89,7 +89,7 @@ body{
     
     .footer {
       background-position: absolute;
-      bottom: 0;
+      bottom: 100%;
       width: 100%;
       /*set the fixed height of the footer here */
       height: 60px;
@@ -102,17 +102,10 @@ body{
   to {background-color: yellow;}
 }
 
-/* The element to apply the animation to */
-/*div {
+.div {
   width: 200px;
   height: 200px;
   background-color:palevioletred;
   animation-name: navbar;
   animation-duration: 4s;
-}*/
-
-@media screen and(max-width: 640px){
-  .header-custom{
-    width: 100%;
-  }
 }
