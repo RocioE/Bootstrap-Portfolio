@@ -1,5 +1,4 @@
-.container,
-  .container-fluid {
+.container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -7,28 +6,33 @@
 }
 
 
+
 .clearfix {
   overflow: auto;
 }
 
-@media (min-width: 768px) {
-    .container {
-      max-width: 720px;
-    }
-  }
-  
-  @media (min-width: 992px) {
-    .container {
-      max-width: 960px;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .container {
-      max-width: 1140px;
-    }
-}
+
 .main-form {
     width: 450px;
     margin: auto;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 980px) {
+  body {
+    background-color: rgb(129, 224, 248);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: rgb(209, 143, 187);
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 640px) {
+  body {
+    background-color: rgb(89, 183, 196);
+  }
 }

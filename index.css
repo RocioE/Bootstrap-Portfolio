@@ -4,12 +4,33 @@ body{
     background:pink;
     }
   
-  .pink {
-      /* background-color: #ec92e0; */
-      font-family: 'Open Sans', sans-serif;
+
+
+/*   img {
+    padding: 15px;
+    height: 200px;
+    width:200px;
+        
+  } */
+
+  .clear{
+    clear: both;
   }
+  .img1 {
+    padding: 15px;
+    height: 150px;
+    width: 150px;
   
-  ul {
+  }
+      
+
+  .col-md-8 {
+    text-align: center;
+    padding: 10px;
+  }
+
+  
+  /*ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -35,13 +56,18 @@ body{
   }
   
   
-   li a {
+  
+  li a {
     display: inline;
     color: rgb(233, 159, 211);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+  }*/
 
+.float {
+  float: left;
+}
   
   
   body {
@@ -50,6 +76,7 @@ body{
       margin-bottom: 100px;
       margin-right: 250px;
       margin-left: 250px;
+      font-size: 18px;
     }
     
     h1 {
@@ -58,15 +85,12 @@ body{
     }
     
     p {
-      font-family: open sans-serif;
+      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
       font-size: 25px;
       font-weight: 100;
       text-align: left;
-      font-family: 'Open Sans', sans-serif;
-  
-      
-      
     }
+
     .Link{
       text-align: left
     }
@@ -76,22 +100,18 @@ body{
 
     
     /* ###Footer###*/
-    html{
-      postition: relative;
+    html {
+      position: relative;
       min-height: 400;
-    }
-
-
-  
+    } 
 
       /*margin bottom by footer height */
     
     .footer {
       background-position: absolute;
-      bottom: 100%;
+      bottom: 100;
       width: 100%;
-      /*set the fixed height of the footer here */
-      height: px;
+       height: 60px;
       background-color: rgb(223, 147, 212)
     }
 
@@ -107,4 +127,45 @@ body{
   background-color:palevioletred;
   animation-name: navbar;
   animation-duration: 4s;
+}
+
+.carousel-caption {
+  position: relative !important;
+}
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img {
+  margin: 0 auto;
+}
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img {
+  margin: 0 auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  background: rgb(147, 186, 236);
+}
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 980px) {
+  body {
+    background-color: rgb(129, 224, 248);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: rgb(209, 143, 187);
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 640px) {
+  body {
+    background-color: rgb(89, 183, 196);
+  }
 }

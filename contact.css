@@ -17,9 +17,9 @@ body{
     background-color: pink
   }
   
-  li {
+  /* li {
     floats: right;
-  }
+  } */
   
   nav {
     float: right;
@@ -73,3 +73,23 @@ body{
     }
     h3.normal {
       font-size: normal;
+    }
+
+     /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 980px) {
+  body {
+    background-color: rgb(129, 224, 248);
+  }
+}
+
+  @media screen and (max-width: 768px) {
+  body {
+    background-color: rgb(209, 143, 187);
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 640px) {
+  body {
+    background-color: rgb(89, 183, 196);
+  }}
