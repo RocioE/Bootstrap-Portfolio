@@ -8,7 +8,7 @@ body{
     clear: both;
   }
   .img1 {
-    padding: 15px;
+    padding: 25px;
     height: 150px;
     width: 150px;
   
@@ -58,16 +58,18 @@ body{
 
 .float {
   float: left;
+  padding: 25%px;
 }
   
   
   body {
       background-color: rgb(243, 184, 193);
-      margin-top: 100px;
-      margin-bottom: 100px;
-      margin-right: 250px;
-      margin-left: 250px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-right: 200px;
+      margin-left: 200px;
       font-size: 18px;
+      padding: 10px;
     }
     
     h1 {
@@ -80,6 +82,7 @@ body{
       font-size: 25px;
       font-weight: 100;
       text-align: left;
+      padding-left: %
     }
 
     .Link{
@@ -102,8 +105,8 @@ body{
       background-position: absolute;
       bottom: 100;
       width: 100%;
-       height: 60px;
-      background-color: rgb(223, 147, 212)
+     height: 60px;
+     background-color: rgb(223, 147, 212)
     }
 
     /* The animation code */
@@ -118,6 +121,10 @@ body{
   background-color:palevioletred;
   animation-name: navbar;
   animation-duration: 4s;
+}
+
+h5 {
+  color: black;
 }
 
 .carousel-caption {
@@ -139,6 +146,10 @@ body{
   background: rgb(147, 186, 236);
 }
 
+.carouselExampleControls {
+  position: center
+
+}
 
 
 /* On screens that are 992px or less, set the background color to blue */

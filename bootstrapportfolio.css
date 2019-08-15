@@ -3,6 +3,12 @@ body{
     url("./pink_rice.png");
     background:pink;
     }
+
+    .container {
+        text-align: center;
+        padding: 10px;
+      }
+    }
   
   .pink {
       /* background-color: #ec92e0; */
@@ -17,13 +23,7 @@ body{
     background-color: pink
   }
   
-  li {
-    floats: right;
-  }
   
-  nav {
-    float: right;
-  }
   
   nav  {
     margin-top: 40px;
@@ -39,7 +39,7 @@ body{
   li a {
     display: inline;
     color: rgb(233, 159, 211);
-    text-align: center;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
   }
@@ -56,6 +56,7 @@ body{
     h1 {
       color: black;
       border-style: solid;
+      text-align: left;
     }
     
     p {
@@ -106,11 +107,7 @@ body{
         padding-top: 0
       }
 
-      /* {
-        margin: 0;
-        padding: 0;
-      } */
-
+  
       body{
          background: pink;
         background-size: cover;
@@ -118,23 +115,23 @@ body{
         font-family: sans-serif;
       }
 
-      .container{
+      /* .container{
         width: 800px;
         height: 600px;
         background: #fff;
         margin: 50px auto;
         padding: 40px;
         box-shadow: 0 0 20px pink 
-      }
+      } */
 
-      .container p{
+      /* .container p{
         text-transform: upper case;
         text-align: center;
         font-size: 45px;
         margin-bottom: 20px;
         color: whitesmoke;
         letter-spacing: 1px;
-      }
+      } */
 
       .input, .msg .area{
         width: 100%;
