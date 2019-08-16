@@ -81,7 +81,7 @@ body{
       border-left: 100px;
       border-bottom: 100px;
       border-right: 150px;
-      border-left: 80px;
+      border-left: 150px;
     }
   
     div {
@@ -108,23 +108,10 @@ body{
       }
 
   
-      body{
-         background: pink;
-        background-size: cover;
-        height: auto;
-        font-family: sans-serif;
-      }
+    
 
-      /* .container{
-        width: 800px;
-        height: 600px;
-        background: #fff;
-        margin: 50px auto;
-        padding: 40px;
-        box-shadow: 0 0 20px pink 
-      } */
-
-      /* .container p{
+     
+      .container p{
         text-transform: upper case;
         text-align: center;
         font-size: 45px;
@@ -135,7 +122,7 @@ body{
 
       .input, .msg .area{
         width: 100%;
-        padding: 20px;
+        padding: 40px;
         box-sizing: 25px;
         border: 2px solid whitesmoke;
         font-size: 14px;

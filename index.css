@@ -21,42 +21,7 @@ body{
   }
 
   
-  /*ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: pink
-  }
-  
-  li {
-    float: left;
-  }
-  
-  nav {
-    float: right;
-  }
-  
-  nav  {
-    margin-top: 40px;
-    margin-right: 10px;
-    border: 40;
-    padding: 20;
-    list-style-type: relative;
-    padding-top: 0
-  }
-  
-  
-  
-  li a {
-    display: inline;
-    color: rgb(233, 159, 211);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }*/
-
-.float {
+ .float {
   float: left;
   padding: 20px;
 }
