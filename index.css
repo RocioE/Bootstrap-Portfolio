@@ -1,0 +1,137 @@
+  .clear{
+    clear: both;
+  }
+  .img1 {
+    padding: 30px;
+    height: 150px;
+    width: 150px;
+  
+  }
+      
+
+  .col-md-8 {
+    text-align: left;
+    padding: 0px;
+  }
+
+  
+ .float {
+  float: left;
+  padding: 20px;
+}
+  
+  
+  body {
+      background-color: #f8dade;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      margin-right: 200px;
+      margin-left: 200px;
+      font-size: 15px;
+      padding: 10px;
+    }
+    
+    h1 {
+      color: black;
+      border-style: solid;
+    }
+    
+    p {
+      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      font-size: 22px;
+      font-weight: 100;
+      text-align: left;
+      padding-left: 20%
+    }
+
+    .Link{
+      text-align: left
+    }
+    h3.normal {
+      font-size: normal;
+    }
+
+    
+    /* ###Footer###*/
+    html {
+      position: relative;
+      min-height: 00;
+    } 
+
+      /*margin bottom by footer height */
+    
+    .footer {
+      background-position: absolute;
+      bottom: 100;
+      width: 100%;
+     height: 60px;
+     background-color: rgb(223, 147, 212)
+    }
+
+    /* The animation code */
+@keyframes navbar {
+  from {background-color: palevioletred;}
+  to {background-color: yellow;}
+}
+
+.div {
+  width: 200px;
+  height: 200px;
+  background-color:palevioletred;
+  animation-name: navbar;
+  animation-duration: 4s;
+}
+
+h5{
+  color: black;
+  text-align: center;
+}
+
+.carousel-caption {
+  position: relative !important;
+}
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img {
+  margin: 0 auto;
+}
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img {
+  margin: 0 auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  background: rgb(234, 237, 240);
+}
+
+.carouselExampleControls {
+  position: center
+
+}
+.imgC{
+  margin: 0 auto;
+}
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 980px) {
+  body {
+    background-color: rgb(129, 224, 248);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: rgb(209, 143, 187);
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 640px) {
+  body {
+    background-color: rgb(89, 183, 196);
+  }
+}

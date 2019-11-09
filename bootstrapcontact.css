@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: space-between;
+}
+
+
+
+.clearfix {
+  overflow: auto;
+}
+
+
+.main-form {
+    width: 500px;
+    margin: auto;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 980px) {
+  body {
+    background-color: rgb(129, 224, 248);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: rgb(209, 143, 187);
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 640px) {
+  body {
+    background-color: rgb(89, 183, 196);
+  }
+}

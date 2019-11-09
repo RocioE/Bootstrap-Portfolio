@@ -1,0 +1,95 @@
+body{
+    background-image: 
+    url("./pink_rice.png");
+    background:pink;
+    }
+  
+  .pink {
+      /* background-color: #ec92e0; */
+      font-family: 'Open Sans', sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(245, 219, 223)
+  }
+  
+  /* li {
+    floats: right;
+  } */
+  
+  nav {
+    float: right;
+  }
+  
+  nav  {
+    margin-top: 40px;
+    margin-right: 10px;
+    border: 40;
+    padding: 20;
+    list-style-type: relative;
+    padding-top: 0
+  }
+  
+  
+  
+  li a {
+    display: inline;
+    color: rgb(233, 159, 211);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  body {
+      background-color: rgb(243, 184, 193);
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-right: 250px;
+      margin-left: 250px;
+    }
+    
+    h1 {
+      color: black;
+      border-style: solid;
+    }
+    
+    p {
+      font-family: open sans-serif;
+      font-size: 25px;
+      font-weight: 100;
+      text-align: left;
+      font-family: 'Open Sans', sans-serif;
+  
+      
+      
+    }
+    .Link{
+      text-align: left
+    }
+    h3.normal {
+      font-size: normal;
+    }
+
+     /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 980px) {
+  body {
+    background-color: rgb(129, 224, 248);
+  }
+}
+
+  @media screen and (max-width: 768px) {
+  body {
+    background-color: rgb(209, 143, 187);
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 640px) {
+  body {
+    background-color: rgb(89, 183, 196);
+  }}
